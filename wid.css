@@ -1,0 +1,59 @@
+ .tabs{
+     height: 24px;
+     overflow: hidden;
+ }
+ .vehicles-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+    text-align: center;
+    padding: 30px 0 0;
+    
+ }
+ .links{
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: auto;
+    margin: 5px -10px 0;
+    list-style: none;
+ }
+ a{
+    text-decoration: none;
+    color: #000;
+    transition: all .3;
+ }
+ a:hover{
+     color: red;
+ }
+ .links li{
+    padding-left: 25px;
+ }
+ .vehicles-container a{
+    width: calc((100% / 5) - 10px);
+    display: inline-block;
+    margin: 0 5px 30px;
+    vertical-align: top;
+    text-decoration: none;
+    
+ }
+ .vehicles-container img{
+     transition: all .3s;
+     width: 100%;
+ }
+ .vehicles-container a :hover img{
+     transform: scale(1.05);
+     
+ }
+ .vehicles-container a h4{
+    font-family: "Nissan Bold","Nissan Regular",Verdana,Arial,sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 5px 0 0;
+    display: block;
+ }
+ .grid-row{
+     margin: 0 auto;
+     width: 1200px;
+
+ }
